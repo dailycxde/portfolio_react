@@ -5,7 +5,7 @@
     padding-block: 100px;
 }
 
-.contact input, .contact textarea, .contact button{
+.contact input, .contact textarea{
     background-color: black;
     color: white;
     border-color: white;
