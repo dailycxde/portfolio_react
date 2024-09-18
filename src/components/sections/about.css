@@ -69,9 +69,16 @@
         flex-direction: column
     }
 
+   
     .about div{
         font-size: 50px;
     }
+
+    .about div.arrow{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
 
     .p2{
         width: 100%;
