@@ -69,6 +69,7 @@ a {
 .itemp {
     font-size: 25px;
     font-weight: bolder;
+    text-align: center;
 }
 
 .stitle{
@@ -120,4 +121,27 @@ a {
     font-size: 30px;
     font-weight: bolder;
     color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .body{
+        padding-inline: 0px;
+    }
+
+    .list{
+        grid-template-columns: 1fr 1fr;
+        column-gap: 25px;
+        row-gap: 40px;
+        padding-block: 75px;
+    }
+
+    .citem, .projectitem, .stackitem{
+        height: 250px;
+        width: 175px;
+    }
+
+    .picture{
+        height: 100px;
+        width: 100px;
+    }
 }

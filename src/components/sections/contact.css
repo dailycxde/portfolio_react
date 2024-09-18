@@ -58,3 +58,18 @@
 .f1 input{
     padding-left: 10px;
 }
+
+@media only screen and (max-width: 768px) {
+
+    .window{
+        width: 95%;
+    }
+    
+    .f1{
+        column-gap: 10px;
+    }
+
+    #message{
+        height: 100px; 
+    }
+}
