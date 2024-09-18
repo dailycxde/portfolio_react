@@ -1,0 +1,10 @@
+footer {
+    color: white;
+    height: 75px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 10%;
+    font-family: "Didact Gothic";
+}

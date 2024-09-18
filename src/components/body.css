@@ -1,0 +1,123 @@
+.parentbody {
+    position: relative;
+    display:flex;
+    justify-content: center;
+}
+
+.bg{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.3;
+}
+
+.body{
+    width: 100%;
+    padding-inline: 35px;
+    padding-top: 35px;
+    font-family: "Didact Gothic"
+}
+
+a {
+    text-decoration: none;
+}
+
+.list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 150px;
+    row-gap: 100px;
+    padding-block: 100px;
+    padding-left: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.communities, .project, .stack, .contact {
+    min-height: 750px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.citem, .projectitem, .stackitem{
+    position: relative;
+    height: 400px;
+    width: 275px;
+    background-color: white;
+    color: black;
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.picture{
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.itemp {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.stitle{
+    font-size: 60px;
+    color: white;
+    margin: 0;
+}
+
+.subtitle{
+    font-size: 30px;
+    color: white;
+    margin: 0;
+}
+
+.hover{
+    height: 0;
+    opacity: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 100%;
+    z-index: 10;
+    background-color: rgb(0, 0, 0);
+    transition: 0.3s ease-in-out;
+}
+
+.stackitem .hover{
+    width: 0;
+    right: 0;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+.stackitem:hover .hover{
+    opacity: 1;
+    width: 30px;
+}
+
+
+
+.projectitem:hover .hover, .citem:hover .hover{
+    height: 100%;
+    opacity: 1;
+}
+
+.showbtn{
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+}

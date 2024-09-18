@@ -1,0 +1,38 @@
+header {
+    color: white;
+    height: 75px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline: 10%;
+    font-family: "Didact Gothic";
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.s1, .s2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation {
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    column-gap: 10px;
+    padding: 0;
+}
+
+.navigation li{
+    font-weight: bold;
+}
+
+.title{
+    margin: 0;
+    font-size: 20px;
+}

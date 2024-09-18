@@ -1,0 +1,60 @@
+.window{
+    height: 70%;
+    width: 40%;
+    border: 0;
+    padding-block: 100px;
+}
+
+.contact input, .contact textarea{
+    background-color: black;
+    color: white;
+    border-color: white;
+    border: 1px;
+    border-style: solid;
+    padding: 0;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+#name{
+    height: 40px;
+}
+
+#email{
+    height: 40px;
+}
+
+#message{
+    resize: none;
+    height: 300px;
+    width: 100%;
+    margin-block: 10px;
+    padding-top: 10px;
+}
+
+#submit{
+    height: 40px;
+    width: 100px;
+}
+
+.f1{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+.f2{
+    width: 100%;
+}
+
+.f1 input{
+    padding-left: 10px;
+}
